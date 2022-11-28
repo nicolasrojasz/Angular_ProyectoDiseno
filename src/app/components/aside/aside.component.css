@@ -1,0 +1,35 @@
+aside {
+  font-family: "Mulish", sans-serif;
+  font-family: "Noto Sans Display", sans-serif;
+  font-family: "Signika Negative", sans-serif;
+
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  width: 400px;
+  border-left: 1.5px solid ;
+  background-color: #1F2024;
+  color: white;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+.divNoticias h5 {
+  text-align: justify;
+  padding: 6px;
+}
+.divNoticias {
+  text-align: justify;
+  padding: 16px 0px;
+}
+.clima {
+  padding: 18px;
+  background-color: #adb5bd;
+}
+h2 {
+  text-decoration: underline;
+}

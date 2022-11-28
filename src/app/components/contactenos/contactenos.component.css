@@ -1,0 +1,67 @@
+.fila{
+    margin-bottom: 20px;
+    margin-top: 100px; 
+    margin-bottom: 100px;
+
+}
+h1{
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+}
+.infoDerecha{
+    display: flex;
+    justify-content: center;
+
+}
+
+.infoIzquierda{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+
+h2{
+    margin-bottom: 50px;
+}
+.container{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+.enlaceNavegacion{
+    text-align: center;
+    margin-top: 20px;
+    width: 8rem;
+    margin-left: auto;
+    padding: 10px;
+    background-color: #161F30;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+.enlaceNavegacion a{
+    text-decoration: none;
+    color: whitesmoke;
+   
+}
+.enlaceNavegacion:hover{
+    background-color: #217373;
+}
+
+
+@media (max-width: 576px) {
+    .infoIzquierda{
+        padding: 30px 20px;
+    }
+    .infoDerecha{
+        padding: 10px 0px;
+    }
+    .fila{
+        margin-top: 50px;
+        margin-bottom: 100px
+    }
+  }

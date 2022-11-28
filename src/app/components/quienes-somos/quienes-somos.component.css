@@ -1,0 +1,61 @@
+
+.row{
+    margin-bottom: 20px;
+    margin-top: 100px; 
+    margin-bottom: 200px
+}
+h1{
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+.infoDerecha{
+    display: flex;
+    justify-content: center;
+    
+}
+
+a{
+    text-decoration: none;
+    align-self: center;
+}
+
+.enlaceNavegacion:hover{
+    background-color: #217373;
+}
+.infoIzquierda{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.enlaceNavegacion{
+    margin-top: 20px;
+    width: 8rem;
+    padding: 10px;
+    background-color: #161F30;
+    border-radius: 2px;
+}
+.enlaceNavegacion a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+@media (max-width: 576px) {
+    .infoIzquierda{
+        padding: 30px 20px;
+    }
+    .infoDerecha{
+        padding: 10px 0px;
+    }
+    .infoDerecha img{
+        padding: 4px;
+    }
+    .row{
+        margin-top: 50px;
+        margin-bottom: 100px
+    }
+  }

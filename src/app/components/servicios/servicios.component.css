@@ -1,0 +1,46 @@
+.row{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    text-align: justify;
+}
+h5{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+.enlaceNavegacion{
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #161F30;
+    border-radius: 2px;
+}
+.enlaceNavegacion a{
+    text-decoration: none;
+    color: whitesmoke;
+   
+}
+.enlaceNavegacion:hover{
+    background-color: #217373;
+}
+
+@media (max-width: 576px) {
+    .row{
+        justify-content:center;
+        padding: 0px;
+        margin: 0px;
+    }
+    .card{
+        margin-bottom:20px ;
+    }
+  }

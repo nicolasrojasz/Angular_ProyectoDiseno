@@ -1,0 +1,29 @@
+img{
+
+    width: 70px;
+    height: 50px;
+  }
+  
+  ul{
+    padding: 0px 18px;
+  }
+  li{
+    padding: 0px 10px;
+
+  }
+  .nav-link:hover{
+    background-color: #161F30;
+    border-radius: 2px;
+    color: whitesmoke;
+  }
+
+  @media (max-width: 576px) {
+  
+    a{
+      text-align: center;
+    }
+  
+  }
+  
+  
+  
